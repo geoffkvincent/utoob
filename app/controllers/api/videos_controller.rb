@@ -21,7 +21,7 @@ class Api::VideosController < ApplicationController
 
   def update
     if @video.update(video_params)
-      redner json: @video
+      render json: @video
     else
       render json: @video.errors, status 422
     end

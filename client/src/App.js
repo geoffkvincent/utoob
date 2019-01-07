@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom'
 import Home from './components/Home'
 import NoMatch from './components/NoMatch'
 import Navbar from './components/Navbar'
+import {Container} from 'semantic-ui-react'
 
 const App = () => (
   <Fragment>

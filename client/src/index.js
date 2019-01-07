@@ -5,6 +5,8 @@ import {AuthProvider} from "./providers/AuthProvider"
 import App from './App';
 
 ReactDOM.render(
-  
+  <AuthProvider>
+
   <App />, 
+  </AuthProvider>
 document.getElementById('root'));

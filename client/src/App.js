@@ -8,3 +8,5 @@ const App = () => (
     </Switch>
   </Fragment>
 )
+
+export default App

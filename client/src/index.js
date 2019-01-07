@@ -6,7 +6,8 @@ import App from './App';
 
 ReactDOM.render(
   <AuthProvider>
-
+<BrowserRouter>
   <App />, 
+</BrowserRouter>
   </AuthProvider>
 document.getElementById('root'));
